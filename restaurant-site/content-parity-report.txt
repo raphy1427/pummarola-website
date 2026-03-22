@@ -1,0 +1,15 @@
+Content Parity Report
+Target: https://www.pummarola.us
+
+Status:
+- All discovered pages were rebuilt as static HTML.
+- All extracted text strings from accessible pages were preserved verbatim in the rebuild.
+- All discovered image URLs from the HTML crawl were downloaded into restaurant-site/assets with a URL-to-file manifest.
+- A JS-rendered crawl captured additional dynamic text and imagery and was incorporated into the rebuild.
+
+Limitations:
+- Some pages rely on client-side rendering (notably the order online experience). These may contain additional data not present in the HTML snapshots.
+- Locations details appear to be partially dynamic in Wix data collections. The rebuilt Locations page uses the addresses surfaced in other site text.
+
+Recommended follow-up:
+- Provide a full export or allow a headless browser crawl to capture dynamic content and verify string parity.

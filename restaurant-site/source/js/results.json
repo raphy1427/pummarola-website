@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://www.pummarola.us",
+    "name": "index",
+    "textCount": 44,
+    "imageCount": 126
+  },
+  {
+    "url": "https://www.pummarola.us/aboutus",
+    "name": "aboutus",
+    "textCount": 106,
+    "imageCount": 69
+  },
+  {
+    "url": "https://www.pummarola.us/bookonline",
+    "name": "bookonline",
+    "textCount": 49,
+    "imageCount": 69
+  },
+  {
+    "url": "https://www.pummarola.us/careers",
+    "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.pummarola.us/careers\", waiting until \"networkidle\"\u001b[22m\n"
+  },
+  {
+    "url": "https://www.pummarola.us/catering",
+    "name": "catering",
+    "textCount": 31,
+    "imageCount": 39
+  },
+  {
+    "url": "https://www.pummarola.us/catering-online",
+    "name": "catering-online",
+    "textCount": 53,
+    "imageCount": 48
+  },
+  {
+    "url": "https://www.pummarola.us/catering-quote",
+    "name": "catering-quote",
+    "textCount": 34,
+    "imageCount": 38
+  },
+  {
+    "url": "https://www.pummarola.us/contact",
+    "name": "contact",
+    "textCount": 24,
+    "imageCount": 38
+  },
+  {
+    "url": "https://www.pummarola.us/groupclasses",
+    "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.pummarola.us/groupclasses\", waiting until \"networkidle\"\u001b[22m\n"
+  },
+  {
+    "url": "https://www.pummarola.us/locations",
+    "name": "locations",
+    "textCount": 23,
+    "imageCount": 37
+  },
+  {
+    "url": "https://www.pummarola.us/mobile-pizza-oven",
+    "name": "mobile-pizza-oven",
+    "textCount": 70,
+    "imageCount": 81
+  },
+  {
+    "url": "https://www.pummarola.us/pizzaclass",
+    "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.pummarola.us/pizzaclass\", waiting until \"networkidle\"\u001b[22m\n"
+  },
+  {
+    "url": "https://www.pummarola.us/orderonline",
+    "name": "orderonline",
+    "textCount": 24,
+    "imageCount": 2
+  },
+  {
+    "url": "https://www.pummarola.us/privacy-policy",
+    "name": "privacy-policy",
+    "textCount": 58,
+    "imageCount": 37
+  }
+]

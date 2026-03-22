@@ -1,0 +1,37 @@
+Pummarola Crawl Report
+Target: https://www.pummarola.us
+
+Discovered URLs:
+- https://www.pummarola.us/
+- https://www.pummarola.us/locations
+- https://www.pummarola.us/orderonline
+- https://www.pummarola.us/pizzaclass
+- https://www.pummarola.us/bookonline
+- https://www.pummarola.us/groupclasses
+- https://www.pummarola.us/aboutus
+- https://www.pummarola.us/catering
+- https://www.pummarola.us/catering-online
+- https://www.pummarola.us/mobile-pizza-oven
+- https://www.pummarola.us/catering-quote
+- https://www.pummarola.us/contact
+- https://www.pummarola.us/careers
+- https://www.pummarola.us/privacy-policy
+
+External links referenced on site:
+- https://www.sun-sentinel.com
+- https://www.timeout.com/miami
+- https://communitynewspapers.com
+- https://www.miaminewtimes.com
+- https://eatyourheartoutblog.tumblr.com
+- https://jeffeats.com
+- https://www.pizzafestival.us/
+- https://www.emilysgarden.us/
+- https://www.order.store/brand/pummarola
+- https://bookeo.com/pummarolapizzaclasses/buyvoucher
+- https://pummarolapizzeria.square.site/
+
+JS-rendered crawl artifacts:
+- restaurant-site/source/js/*.html
+- restaurant-site/source/js/*.txt
+- restaurant-site/source/js/*-images.txt
+- restaurant-site/source/js/screens/*.png
