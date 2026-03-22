@@ -1,3 +1,3 @@
-Make the following corrections:
+Make the following corrections for mobile usage:
 
-1. In the top menu/bar where all the buttons are, (Home, Locations, Pizaa Classes, Catering, About, and Contact) the following buttons have an animation that the others don't. Do as you wish, if you think keeping the animations are ok, keep them, but if you think it adds too much because there is "color tint" when we move over, remove the animations. The following buttons are different than the others: "Order", "Pizza Classes", and "Catering". Neither of them have animations.
+1. The top menu with the red buttons are not working. I need to double press to view the drop down menus for the following buttons: "Order", "Pizza Classes", and "Catering". You need to make sure that all drop down menus fit on any mobile device no matter what screen size they have.

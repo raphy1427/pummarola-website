@@ -7,6 +7,9 @@
 
   const topbar = document.querySelector(".topbar");
   let lastScrollY = window.scrollY;
+  const supportsHover =
+    typeof window.matchMedia === "function" &&
+    window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
   const closeAll = (except) => {
     groups.forEach((group) => {
@@ -17,11 +20,30 @@
   };
 
   groups.forEach((group) => {
+    const summary = group.querySelector("summary");
+
+    if (summary) {
+      summary.setAttribute("aria-expanded", String(group.open));
+    }
+
     group.addEventListener("toggle", () => {
+      if (summary) {
+        summary.setAttribute("aria-expanded", String(group.open));
+      }
+
       if (group.open) {
         closeAll(group);
       }
     });
+
+    if (summary && !supportsHover) {
+      summary.addEventListener("click", (event) => {
+        event.preventDefault();
+        const willOpen = !group.open;
+        closeAll(group);
+        group.open = willOpen;
+      });
+    }
 
     group.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => closeAll());
