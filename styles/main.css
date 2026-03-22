@@ -198,6 +198,8 @@ img {
 .nav-group summary:focus {
   background: var(--tomato-dark);
   border-color: #5c1d15;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 14px rgba(191, 61, 46, 0.24);
 }
 
 .nav-dropdown {

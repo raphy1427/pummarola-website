@@ -1,5 +1,3 @@
 Make the following corrections:
 
-1. The image of the lady on the "About" page is now too big. Keep the green and black text below the image.
-
-2. In the "About" page, under "From the Press", the boxes containing the articles should be thicker.
+1. In the top menu/bar where all the buttons are, (Home, Locations, Pizaa Classes, Catering, About, and Contact) the following buttons have an animation that the others don't. Do as you wish, if you think keeping the animations are ok, keep them, but if you think it adds too much because there is "color tint" when we move over, remove the animations. The following buttons are different than the others: "Order", "Pizza Classes", and "Catering". Neither of them have animations.
